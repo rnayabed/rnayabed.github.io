@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: PageDefaultFont;
+    src:url(SF-Pro-Text-Regular.otf);
+}
+
+div 
+{
+    font-family: PageDefaultFont;
+}
+
+.lang_select
+{
+    padding: 2%;
+}
