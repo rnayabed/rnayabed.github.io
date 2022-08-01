@@ -80,6 +80,7 @@ html
     display: flex;
     flex-flow: column;
     align-items: center;
+    
 
     gap: 3rem;
 
@@ -280,7 +281,7 @@ html
     color: rgb(146, 146, 146);
 }
 
-@media screen and (max-width: 60rem)
+@media screen and (max-width: 80rem)
 {
     .project
     {
