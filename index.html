@@ -1,73 +1,281 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Debayan Sutradhar</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <header>
-      <h1>Debayan Sutradhar</h1>
-    </header>
+    <head>
+        <title>Debayan Sutradhar</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+            <p id="name">Debayan Sutradhar</p>
 
-    <h2>Basic Information</h2>
-    <div>
-      <p>Age : 18</p>
-      <p>Location : West Bengal, India</p>
-      <p>Language : Bangla, Hindi, English</p>
-    </div>
+            <div id="site-links">
+                <a class="site-link" href="#projects">Projects</a>
+                <a class="site-link" href="#contact">Contact</a>
+                <a class="site-link" href="#contact">Education</a>
+                <a class="site-link" href="#contact">Skills</a>
+            </div>
+        </div>
 
-    <h2>Projects</h2>
+        <div id="projects">
 
-    <h4>[Java] Stream-Pi</h4>
-    <ul>
-      <li><a href="https://stream-pi.com">Website</a></li>
-      <li><a href="https://github.com/stream-pi/">GitHub Project Page</a></li>
-      <li>
-        News
-        <ul>
-          <li><a href="https://www.tomshardware.com/news/raspberry-pi-stream-deck">Tom's Hardware</a></li>
-          <li><a href="https://www.pcgamer.com/streampi-helps-you-create-an-alternative-diy-elgato-stream-deck/">PC Gamer</a></li>
-          <li><a href="https://news.itsfoss.com/streampi/">It's FOSS</a></li>
-        </ul>
-      </li>
-    </ul>
+            <p class="section-title">Projects</p>
 
-    <h4>Minor Projects</h4>
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic stream-pi" src="assets/projects/stream-pi.jpg"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">Stream-Pi</div>
+                    <div class="about">
+                        <p>Lightweight, Customisable, Cross platform, Open Source Macro Pad Software.</p>
 
-    <ul>
-      <li><a href="https://github.com/rnayabed/snakebrary">[Python] SnakeBrary - Modern, rich Library Management System</a></li>
-      <li>
-        [Java] PC Hardware Monitor
-        <ul>
-          <li><a href="https://www.tomshardware.com/news/raspberry-pi-system-monitor-pc-hardware">News - Tom's Hardware</a><li>
-          <li><a href="https://github.com/rnayabed/PCHWRM_Server">Server</a></li>
-          <li><a href="https://github.com/rnayabed/PCHWRM_Client">Client</a></li>
-          <li><a href="https://www.mod-bros.com/en/forum/t/adding-the-dubbadhar-monitoring-theme-to-the-mobro~828">MoBro dubbadhar theme</a></li>
-        </ul>
-      </li>
-      <li><a href="https://github.com/rnayabed/piHoleLCDStat">[Java] Pi-Hole LCD Monitoring Software For Raspberry Pi</a></li>
-      <li><a href="https://github.com/rnayabed/gramophy">[Java] Gramophy - Music Player</a></li>
-    </ul>
+                        <p>
+                            This project is co-owned by me and <a href="https://samtheq.com/" target="_blank">Samuel Quinones</a>.
+                            It is mainly divided into two components - Client and Server.
+                            I programmed the full software stack and all components of the project.
+                            Samuel developed the website and maintains the web infrastructure.
+                        </p>
 
-     
-    <h2>Accounts</h2>
-    <ul>
-      <li><a href="https://twitter.com/rnayabed">Twitter</a></li>
-      <li><a href="https://github.com/rnayabed/">GitHub</a></li>
-    </ul>
+                        <p>
+                            Stream-Pi has been downloaded over 15K times, with an active fast growing Discord community of over 1300 members.
+                            More information can be found in the project website and our Github repositories.
+                        </p>
 
-    <h2>Contact</h2>
-    <ul>
-      <li>Email : <a href="mailto:debayansutradhar3@gmail.com">debayansutradhar3@gmail.com</a></li>
-      <li>Email : <a href="mailto:debayan@stream-pi.com">debayan@stream-pi.com</a></li>
-      <li>Discord: rnayabed#0784</li>
-      <li>Matrix: @dubbadhar:matrix.org</li>
-    </ul>
+                        <p class="news-section">
+                            Stream-Pi has also been featured on various videos and tech sites including
+                            <a href="https://www.tomshardware.com/news/raspberry-pi-stream-deck" target="_blank">tom's HARDWARE</a>,
+                            <a href="https://www.pcgamer.com/streampi-helps-you-create-an-alternative-diy-elgato-stream-deck/" target="_blank">PC GAMER</a> and
+                            <a href="https://news.itsfoss.com/streampi/" target="_blank">It's FOSS</a>.
+                        </p>
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Java</p>
+                        <p>JavaFX</p>
+                        <p>Networking</p>
+                        <p>Cross Platform</p>
+                        <p>Raspberry Pi</p>
+                        <p>SBC</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-website-btn btn" href="https://stream-pi.com/" target="_blank">Project Website</a> 
+                        <a class="project-source-btn btn" href="https://github.com/stream-pi/" target="_blank">View Source</a> 
+                    </div>
+                </div>
+            </div>
 
-    <br/>
-    <br/>
-    <center>
-      <a href="index_hi.html" class="lang_select">हिन्दी</a>
-      <a href="index_bn.html" class="lang_select">বাংলা</a>
-    </center>
-  </body>
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic" src="assets/projects/snakebrary.png"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">SnakeBrary</div>
+                    <div class="about">
+                        <p>A Sweet and Simple Library Management System.</p>
+
+                        <p>
+                            This my CBSE Class 12 (2022) Project. 
+                            It features a rich User Account System which is easy to understand and 
+                            also powerful. UI is simple and follows Google's Material Design Language 2.0
+                            More details can be found in the documentation and the GitHub repository.
+                        </p>
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Python</p>
+                        <p>PySide</p>
+                        <p>SQL</p>
+                        <p>DMBS</p>
+                        <p>Cross Platform</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-website-btn btn" href="https://raw.githubusercontent.com/rnayabed/SnakeBrary/master/docs/project.pdf" target="_blank">Documentation</a> 
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/snakebrary" target="_blank">View Source</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic gramophy" src="assets/projects/gramophy.png"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">Gramophy</div>
+                    <div class="about">
+                        <p>
+                            Ad-free, Opensource, YouTube Music Player/Downloader.
+                        </p>
+
+                        <p>
+                            This project lets users play and download music from YouTube.
+                            It uses the <a href="https://youtube-dl.org/" target="_blank">youtube-dl</a>
+                            project to download music. 
+                        </p>
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Java</p>
+                        <p>JavaFX</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/gramophy" target="_blank">View Source</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic pchwrm" src="assets/projects/pchwrm.jpg"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">PC Hardware Monitor</div>
+                    <div class="about">
+                        <p>Use your Raspberry Pi as a Resource Monitor.</p>
+
+                        <p>
+                            This was a quick project that I wrote to use my new Raspberry Pi 7" Screen.
+                            It is divided into two softwares - Server (PC) and Client (Raspberry Pi).
+                            The Server fetches PC data from OpenHardwareMonitor and sends it to the Client
+                            which it then parses and shows on the screen. Not the most secure option out there
+                            and this project would have been a lot simpler if I just had an extra large HDMI cable
+                            lying around.
+                        </p>
+
+                        <p>
+                            This project got quickly popular overnight in the Raspberry Pi Community.
+                            The <a href="https://www.mod-bros.com/en/projects/mobro" target="_blank">MoBro project</a> by ModBros
+                            also honoured this by creating a <a href="https://github.com/ModBros/mobro-theme-dubbadhar" target="_blank">theme</a> based on the UI.
+                        </p>
+                        
+                        <p class="news-section">This project has been featured on <a href="https://www.tomshardware.com/news/raspberry-pi-system-monitor-pc-hardware" target="_blank">tom's HARDWARE</a>.</p>                  
+
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Java</p>
+                        <p>JavaFX</p>
+                        <p>Networking</p>
+                        <p>Raspberry Pi</p>
+                    </div>
+                    <div class="buttons"> 
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/PCHWRM_Client" target="_blank">View Client Source</a> 
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/PCHWRM_Server" target="_blank">View Server Source</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic" src="assets/projects/piHoleLCDStat.jpg"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">Pi-Hole LCD Monitoring Software</div>
+                    <div class="about">
+                        <p>
+                            Monitor statistics directly from LCD screen attached to your Raspberry Pi/SBC
+                            running Pi-Hole.
+                        </p>
+
+                        <p>
+                            This was another weekend project that I wrote to use my small 3.5" screen
+                            attached to my Pi-Hole machine (Raspberry Pi) to monitor statistics. The already available options are not
+                            designed for small screens. This software, like Stream-Pi can also
+                            run directly on the Linux Framebuffer instead of a window manager like X11,
+                            making it super lightweight on resource constrained devices like Raspberry Pi.
+                        </p>
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Java</p>
+                        <p>JavaFX</p>
+                        <p>Raspberry Pi</p>
+                        <p>SBC</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/piHoleLCDStat" target="_blank">View Source</a> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic" src="assets/projects/gramopi.png"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">GramoPi</div>
+                    <div class="about">
+                        <p>
+                            A Small Lightweight Music Player for Raspberry Pi.
+                        </p>
+
+                        <p>
+                            This was a small project to test an experimental version of JavaFX Media
+                            on Linux ARM 32-Bit Devices. It has been designed for very small screens
+                            (3.5") and can run directly on Linux Framebuffer, occupying very few resources.
+                        </p>
+                        
+                    </div>
+                    <div class="tech-used">
+                        <p>Java</p>
+                        <p>JavaFX</p>
+                        <p>Raspberry Pi</p>
+                        <p>SBC</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/GramoPI" target="_blank">View Source</a> 
+                    </div>
+                </div>
+            </div>
+
+            <p>
+                More projects can be viewed at my <a href="https://github.com/rnayabed" target="_blank">GitHub</a>.
+            </p>
+        </div>
+
+        <div id="contact-education-skills">
+            <div id="contact">
+                <p class="section-title">Contact</p>
+
+                <ul>
+                    <li>Email : <a href="mailto:debayansutradhar3@gmail.com">debayansutradhar3@gmail.com</a></li>
+                    <li>Email : <a href="mailto:debayan@stream-pi.com">debayan@stream-pi.com</a></li>
+                    <li>Discord: rnayabed#0784</li>
+                    <li>Matrix: @dubbadhar:matrix.org</li>
+                    <li><a href="https://twitter.com/rnayabed">Twitter</a></li>
+                    <li><a href="https://github.com/rnayabed/">GitHub</a></li>              
+                </ul>
+            </div>
+            <div id="education">
+                <p class="section-title">Education</p>
+                
+                <ul>
+                    <li>2022: CBSE 12th: DPS Ruby Park</li>
+                    <li>2020: ICSE 10th: South City International School, Kolkata</li>
+                </ul>
+            </div>
+            <div id="skills">
+                <p class="section-title">Skills</p>
+
+                <div id="skills-table">
+                    
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaFX</li>
+                        <li>Python</li>
+                        <li>Qt</li>
+                        <li>SQL</li>
+                        <li>Kotlin</li>
+                    </ul>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p id="made-by">Made by Debayan Sutradhar © 2022</p>
+    </body>
 </html>
