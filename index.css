@@ -1,3 +1,21 @@
+@font-face {
+    font-family: Roboto;
+    font-weight: normal;
+    src: url(assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: bold;
+    src: url(assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-style: italic;
+    src: url(assets/fonts/roboto/Roboto-Italic.ttf);
+}
+
 *
 {
     padding: 0px;
@@ -8,8 +26,8 @@ html
 {
     background-color: #f6f9fc;
     scroll-behavior: smooth;
+    font-family: Roboto;
 }
-
 
 #main
 {
@@ -34,8 +52,6 @@ html
     gap: 3rem;
 }
 
-
-
 .site-link
 {
     color: rgb(29, 107, 250);
@@ -58,9 +74,6 @@ html
 {
     transform: scaleX(1);
 }
-
-
-
 
 #projects
 {
@@ -93,7 +106,6 @@ html
     height: 100%;
 }
 
-
 .project-pic.pchwrm
 {
     object-position: right;
@@ -104,15 +116,13 @@ html
     object-position: left;
 }
 
-
-
 .project-details
 {
     flex-grow: 1;
     padding: 2rem;
     display: flex;
     flex-flow: column;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .project-details > .title
@@ -120,11 +130,17 @@ html
     font-size: 2.5rem;
 }
 
+.project-details > .about-one-line
+{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
 .project-details > .about
 {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .project-details > .tech-used
@@ -166,7 +182,6 @@ html
     box-shadow: 0rem 0.2rem 0.4rem #b6b6b6;
 }
 
-
 .project-website-btn
 {
     background-color: rgb(9, 144, 255);
@@ -189,45 +204,9 @@ html
     background-color: #02ac5ac4;
 }
 
-/*
-.project-news-toms-hardware-btn
-{
-    background-color: #d8383b;
-    color: white;
-}
-
-.project-news-toms-hardware-btn:hover
-{
-    background-color: #d8383bd3;
-}
-
-.project-news-pc-gamer-btn
-{
-    background-color: #dc191b;
-    color: white;
-}
-
-.project-news-pc-gamer-btn:hover
-{
-    background-color: #dc191cb4;
-}
-
-.project-news-its-foss-btn
-{
-    background-color: #2ebe97;
-    color: white;
-}
-
-.project-news-its-foss-btn:hover
-{
-    background-color: #2ebe98b4;
-}
-*/
-
-
 .news-section
 {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 
@@ -236,11 +215,6 @@ html
     text-align: center;
     font-size: 2rem;
 }
-
-
-
-
-
 
 #contact-education-skills
 {
@@ -273,7 +247,6 @@ html
     gap: 1.5rem;
 }
 
-
 #contact
 {
     grid-area: contact;
@@ -298,26 +271,14 @@ html
     justify-content: space-between;
 }
 
-
-
-
-
-
 #made-by
 {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 1rem;
     font-size: 0.3rem;
+    color: rgb(146, 146, 146);
 }
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 60rem)
 {
@@ -334,6 +295,3 @@ html
             "skills";
     }
 }
-
-
-
