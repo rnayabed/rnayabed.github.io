@@ -200,6 +200,12 @@ html
     color: white;
 }
 
+.project-video-btn
+{
+    background-color: #ff0000;
+    color: white;
+}
+
 .project-source-btn:hover
 {
     background-color: #02ac5ac4;
