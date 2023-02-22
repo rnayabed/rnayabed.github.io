@@ -12,13 +12,52 @@
             <div id="site-links">
                 <a class="site-link" href="#projects">Projects</a>
                 <a class="site-link" href="#contact">Contact</a>
-                <a class="site-link" href="#education">Education</a>
                 <a class="site-link" href="#skills">Skills</a>
             </div>
         </div>
 
         <div id="projects">
             <p class="section-title">Projects</p>
+            <div class="project">
+                <div class="project-pic-container">
+                    <img class="project-pic rangoli" src="assets/projects/rangoli.png"/>
+                </div>
+                <div class="project-details">
+                    <div class="title">Rangoli</div>
+                    <p class="about-one-line">Free, Open Source, Lightweight, Cross-platform Software for Royal Kludge Keyboards.</p>
+                    <div class="about">
+                        <p>
+                            I own a Royal Kludge RK71 keyboard, it was the cheapest proper keyboard I could afford with
+                            features like hotswappable switches, per key rgb, etc. RK keyboards are decent and cheap but
+                            their software only works on Windows and is quite limited.
+                        </p>
+
+                        <p>
+                            I use Linux as my main operating system and I did not like the idea of booting to Windows
+                            or to launch a VM just to configure the keyboard. In the end it was just a matter of sending
+                            appropriate information over USB right? So, I fired up Wireshark and monitored all USB packets
+                            sent from the RK Software to my keyboard. Hence, I was able to draw patterns and reverse 
+                            engineer their protocol, and created Rangoli to bring it to action.
+                        </p>
+                        
+                        <p>
+                            This is also my first C++/Qt project. 
+                        </p>
+                    </div>
+                    <div class="tech-used">
+                        <p>C++</p>
+                        <p>QML</p>
+                        <p>Qt</p>
+                        <p>USB HID</p>
+                        <p>Cross Platform</p>
+                    </div>
+                    <div class="buttons">
+                        <a class="project-website-btn btn" href="https://rnayabed.github.io/rangoli_website" target="_blank">Website</a> 
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/rangoli" target="_blank">View Source</a> 
+                        <a class="project-source-btn btn" href="https://github.com/rnayabed/rangoli" target="_blank">Demonstration Video</a> 
+                    </div>
+                </div>
+            </div>
             <div class="project">
                 <div class="project-pic-container">
                     <img class="project-pic stream-pi" src="assets/projects/stream-pi.jpg"/>
@@ -36,7 +75,7 @@
 
                         <p>
                             Stream-Pi has been downloaded over 15K times, with an active fast growing Discord community of over 1300 members.
-                            More information can be found in the project website and our Github repositories.
+                            More information can be found in the Stream-Pi website and our GitHub repositories.
                         </p>
 
                         <p class="news-section">
@@ -55,7 +94,7 @@
                         <p>SBC</p>
                     </div>
                     <div class="buttons">
-                        <a class="project-website-btn btn" href="https://stream-pi.com/" target="_blank">Project Website</a> 
+                        <a class="project-website-btn btn" href="https://stream-pi.com/" target="_blank">Website</a> 
                         <a class="project-source-btn btn" href="https://github.com/stream-pi/" target="_blank">View Source</a> 
                     </div>
                 </div>
@@ -207,10 +246,9 @@
             </p>
         </div>
 
-        <div id="contact-education-skills">
+        <div id="contact-skills">
             <div id="contact">
                 <p class="section-title">Contact</p>
-
                 <ul>
                     <li>Email : <a href="mailto:debayansutradhar3@gmail.com">debayansutradhar3@gmail.com</a></li>
                     <li>Email : <a href="mailto:debayan@stream-pi.com">debayan@stream-pi.com</a></li>
@@ -218,14 +256,6 @@
                     <li>Matrix: @dubbadhar:matrix.org</li>
                     <li><a href="https://twitter.com/rnayabed">Twitter</a></li>
                     <li><a href="https://github.com/rnayabed/">GitHub</a></li>              
-                </ul>
-            </div>
-            <div id="education">
-                <p class="section-title">Education</p>
-                
-                <ul>
-                    <li>2022: CBSE 12th: DPS Ruby Park</li>
-                    <li>2020: ICSE 10th: South City International School, Kolkata</li>
                 </ul>
             </div>
             <div id="skills">
@@ -251,6 +281,6 @@
             </div>
         </div>
 
-        <p id="made-by">Made by Debayan Sutradhar © 2022</p>
+        <p id="made-by">Made by Debayan Sutradhar © 2023</p>
     </body>
 </html>

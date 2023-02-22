@@ -112,7 +112,7 @@ html
     object-position: right;
 }
 
-.project-pic.stream-pi, .project-pic.gramophy
+.project-pic.rangoli, .project-pic.stream-pi, .project-pic.gramophy
 {
     object-position: left;
 }
@@ -217,7 +217,7 @@ html
     font-size: 2rem;
 }
 
-#contact-education-skills
+#contact-skills
 {
     margin: 0 auto;
 
@@ -228,7 +228,7 @@ html
     display:grid;
 
     grid-template-areas: 
-        "contact education skills";
+        "contact skills";
 
     gap: 3rem;
 
@@ -236,7 +236,7 @@ html
     padding: 2rem 1rem 1rem 1rem;
 }
 
-#contact-education-skills > div
+#contact-skills > div
 {
     padding: 2rem 4rem 2rem 4rem;
     border-radius: 0.3rem;
@@ -251,11 +251,6 @@ html
 #contact
 {
     grid-area: contact;
-}
-
-#education
-{
-    grid-area: education;
 }
 
 #skills
@@ -285,15 +280,14 @@ html
         grid-template-columns: 0fr 1fr;
     }
 
-    #contact-education-skills
+    #contact-skills
     {
         grid-template-areas: 
             "contact"
-            "education"
             "skills";
     }
 
-    #contact-education-skills > div
+    #contact-skills > div
     {
         padding: 2rem;
     }
